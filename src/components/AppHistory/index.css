@@ -1,0 +1,47 @@
+@media screen and (min-width: 768px) {
+  li {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.timeAccessed {
+  color: #64748b;
+  font-weight: 500;
+  margin-bottom: 7px;
+  margin-right: 25px;
+}
+.logoUrl {
+  height: 40px;
+}
+.app-history {
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .app-history {
+    flex-grow: 1;
+  }
+}
+span {
+  color: #64748b;
+}
+
+.app-name-container {
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+@media screen and (min-width: 768px) {
+  br {
+    display: none;
+  }
+}
+button {
+  border: none;
+  background-color: transparent;
+}
